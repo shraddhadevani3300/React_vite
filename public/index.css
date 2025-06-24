@@ -13,10 +13,71 @@
 }
 li{
     list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* ---------------Start NavBar---------------- */
+.header_top{
+    display: block;
+}
+.header_top .top_inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.header_top .top_inner .nav-left{
+    display: flex;
+}
+
+.header_top .top_inner .currency>span {
+    color: #666666;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+.header_top .top_inner .language{
+margin-left: 20px;
+padding-left: 20px;
+border-left: 1px solid #666666;
+}
+.language>span{
+    color: #666666;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+.nav-right{
+    display: block;
+}
+.nav-right .uaccount{
+    display: block;
+}
+.nav-right .user_info{
+    display: flex;
+}
+.nav-right .user_info>li{
+    margin-left: 20px;
+padding-left: 20px;
+border-left: 1px solid #666666;
+}
+
+.nav-right .user_info>li:first-child{
+    border-left: none;
+}
+.nav-right .user_info>li a{
+    color: #666666;
+    font-size: 13px;
+}
+/* ---------------End NavBar---------------- */
+.header_inner>li{
+    list-style: none;
     padding: 20px;
     color: white;
 }
-li a{
+.header_inner>li:first-child{
+    padding-left: 0;
+}
+.header_inner>li a{
     text-decoration: none;
     color: white;
     text-transform: capitalize;
