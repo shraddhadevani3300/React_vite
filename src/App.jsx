@@ -8,7 +8,7 @@ const App = () => {
           <div className="header_top">
             <div className="container">
               <div className="top_inner">
-                <div className="col-right">
+                <div className="nav-left">
                   <div className="currency">
                     <span>USD $</span>
                   </div>
@@ -19,6 +19,13 @@ const App = () => {
                 <div className="col-left"> 
                   <div className="user_info">
                     <div className="uaccount"></div>
+                <div className="nav-right">
+                  <div className="uaccount">
+                    <ul className="user_info">
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Sign In</a></li>
+                    </ul>
                   </div>
                 </div>
 
