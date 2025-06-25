@@ -16,7 +16,7 @@ const App = () => {
                     <span>English</span>
                   </div>
                 </div>
-                <div className="col-left">
+                <div className="col-left"> 
                   <div className="user_info">
                     <div className="uaccount"></div>
                   </div>
