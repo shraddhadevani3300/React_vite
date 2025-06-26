@@ -12,7 +12,7 @@ const Homebody=()=>{
                 <div className="item">
                   <div className="image">
                     <a href="#">
-                      <img src="./public/adv1.png" alt="img" />
+                      <img src="./adv1.png" alt="img" />
                     </a>
                   </div>
                   <div className="text">
@@ -23,7 +23,7 @@ const Homebody=()=>{
                 <div className="item">
                   <div className="image">
                     <a href="#">
-                      <img src="./public/adv3.png" alt="img" />
+                      <img src="./adv3.png" alt="img" />
                     </a>
                   </div>
                   <div className="text">
