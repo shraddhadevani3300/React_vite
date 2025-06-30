@@ -34,15 +34,15 @@ const Header=()=>{
               <ul className="header_inner">
                 <li>
                   <a href="#">Home</a>
-                  <ul className="sub_menu">
-                    <li>Fashion</li>
-                    <li>Jewellery</li>
-                    <li>Furniture</li>
-                    <li>Autoparts</li>
-                  </ul>
                 </li>
-                <li>
+                <li className="menu-item-shop">
                   <a href="#">Shop</a>
+                  <ul className="sub_menu">
+                    <li> <a href="#"> Fashion</a></li>
+                    <li> <a href="#"> Jewellery</a></li>
+                    <li> <a href="#"> Furniture</a></li>
+                    <li> <a href="#"> Autoparts</a></li>
+                  </ul>
                 </li>
                 <li>
                   <a href="#">Electronics</a>
