@@ -1,5 +1,5 @@
 import Homebody from "./Homebody";
-
+import { IoMdArrowDropdown } from "react-icons/io";
 
 const Header=()=>{
     return(
@@ -36,7 +36,7 @@ const Header=()=>{
                   <a href="#">Home</a>
                 </li>
                 <li className="menu-item-shop">
-                  <a href="#">Shop</a>
+                  <a href="#">Shop <IoMdArrowDropdown /></a>
                   <ul className="sub_menu">
                     <li> <a href="#"> Fashion</a></li>
                     <li> <a href="#"> Jewellery</a></li>

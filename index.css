@@ -101,7 +101,7 @@ border-left: 1px solid #666666;
 .header_inner li:hover>a{
     color: #ffaf04;
 }
-.header_inner .menu-item-shop>a::after{
+/* .header_inner .menu-item-shop>a::after{
     content: ' ▼'; 
     font-size: 1.5rem;
     margin-left: 5px;
@@ -112,7 +112,7 @@ border-left: 1px solid #666666;
     font-size: 1.5rem;
     margin-left: 5px;
     transition:  10s ease;
-}
+} */
  .sub_menu{
     display: none;
     position: absolute;
