@@ -5,12 +5,9 @@ import Homebody from "./Homebody";
 const Home=()=>{
     return(
         <>
-        <div className="home-page">
-        <Header/>
         <Homebody/>
         {/* <Rating/> */}
-        <div className="main-footer"></div>
-      </div>
+      
         </>
     )
 }

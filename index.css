@@ -247,3 +247,56 @@ border-left: 1px solid #666666;
     line-height: 1.2;
 
 }
+
+
+/* -------------start form_contact----------- */
+.form_contact{
+    width: 400px;
+    padding: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+/* -------------end form_contact----------- */
+
+/* -----------start footer-------------- */
+.footer_top{
+    display: block;
+    box-sizing: border-box;
+    height: 150px;
+    background: #ffaf04;
+    position: relative;
+    
+}
+.subscrib{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer_bottom{
+    display: block;
+    clear: both;
+    box-sizing: border-box;
+   
+}
+.footer_bottom .footer-inner{
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_bottom .footer-inner .footer-col{
+    width: 25%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.footer_bottom .footer-inner .footer-col .col-title{
+    display: block;
+    margin-bottom: 30px;
+}
+/* -----------end footer-------------- */

@@ -1,5 +1,6 @@
 import Homebody from "./Homebody";
 import { IoMdArrowDropdown } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Header=()=>{
     return(
@@ -33,10 +34,11 @@ const Header=()=>{
             <div className="container">
               <ul className="header_inner">
                 <li>
-                  <a href="#">Home</a>
+                  <Link to="/" >Home </Link>
+                  {/* <a href="#">Home</a> */}
                 </li>
                 <li className="menu-item-shop">
-                  <a href="#">Shop <IoMdArrowDropdown /></a>
+                  <Link to="shop">Shop <IoMdArrowDropdown /></Link>
                   <ul className="sub_menu">
                     <li> <a href="#"> Fashion</a></li>
                     <li> <a href="#"> Jewellery</a></li>
@@ -45,13 +47,10 @@ const Header=()=>{
                   </ul>
                 </li>
                 <li>
-                  <a href="#">Electronics</a>
+                  <Link to="Electronics">Electronics</Link>
                 </li>
                 <li>
-                  <a href="#">Sport&Books</a>
-                </li>
-                <li>
-                  <a href="#">Contact US</a>
+                  <Link to="contactus">Contact US</Link>
                 </li>
               </ul>
             </div>

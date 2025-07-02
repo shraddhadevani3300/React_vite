@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Homebodybanner = () => {
   return (
     <>
@@ -13,7 +15,7 @@ const Homebodybanner = () => {
         <div class="carousel-caption text-left">
           <h2>Delicious Juice</h2>
           <p>Get Upto 20% OFF</p>
-          <a href="#" className="primary">Shop Now</a>
+          <Link to="shop" className="primary">Shop Now</Link>
         </div>
       </div>
       <div className="item">
@@ -21,6 +23,8 @@ const Homebodybanner = () => {
         <div class="carousel-caption text-left">
           <h2>Seasonal Vegetables</h2>
           <p>Get Upto 25% OFF</p>
+          <Link to="shop" className="primary">Shop Now</Link>
+
         </div>
       </div>
     
