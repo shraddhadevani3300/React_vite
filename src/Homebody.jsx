@@ -1,4 +1,6 @@
 import Homebodybanner from "./Homebodybanner";
+import Homebody_img from "./Homebody_img";
+Homebody_img
 const Homebody=()=>{
     return(
         <>
@@ -9,39 +11,10 @@ const Homebody=()=>{
           <div className="static_section padding">
             <div className="container">
               <div className="service_inner">
-                <div className="item">
-                  <div className="image">
-                    <a href="#">
-                      <img src="./public/adv1.png" alt="img" />
-                    </a>
-                  </div>
-                  <div className="text">
-                    <h3>Fresh Fruits</h3>
-                    <p>Up to 30% off</p>
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="image">
-                    <a href="#">
-                      <img src="./public/adv3.png" alt="img" />
-                    </a>
-                  </div>
-                  <div className="text">
-                    <h3>Dry Fruits</h3>
-                    <p>Up to 30% off</p>
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="image">
-                    <a href="#">
-                      <img src="./adv2.png" alt="img" />
-                    </a>
-                  </div>
-                  <div className="text">
-                    <h3>Pure Honey</h3>
-                    <p>Up to 30% off</p>
-                  </div>
-                </div>
+                <Homebody_img img="./adv1.png" text="Fresh Fruits" offer="Up to 30% off" />
+                <Homebody_img img="./adv2.png" text="Pure Honey" offer="Flat 20% off" />
+                <Homebody_img img="./adv3.png" text="Dry Fruits" offer="25% Discount" />
+
               </div>
             </div>
           </div>
