@@ -50,7 +50,7 @@ const Header=()=>{
                   <Link to="Electronics">Electronics</Link>
                 </li>
                 <li>
-                  <Link to="contactus">Contact US</Link>
+                  <Link to="Contactus">Contact US</Link>
                 </li>
               </ul>
             </div>
