@@ -38,7 +38,7 @@ const Header=()=>{
                   {/* <a href="#">Home</a> */}
                 </li>
                 <li className="menu-item-shop">
-                  <Link to="shop">Shop <IoMdArrowDropdown /></Link>
+                  <Link to="Shop">Shop <IoMdArrowDropdown /></Link>
                   <ul className="sub_menu">
                     <li> <a href="#"> Fashion</a></li>
                     <li> <a href="#"> Jewellery</a></li>
