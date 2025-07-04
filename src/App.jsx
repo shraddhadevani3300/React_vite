@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';            // Bootstrap CSS
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';       // Bootstrap JS (includes Popper)
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';    
+   // Bootstrap JS (includes Popper)
 import Home from "./Home";
 import Shop from "./Shop";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
