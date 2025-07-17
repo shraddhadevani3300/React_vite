@@ -250,14 +250,14 @@ border-left: 1px solid #666666;
 
 
 /* -------------start form_contact----------- */
-.form_contact{
+.inquiry_form{
+    display: flex;
+    justify-content: center;
+}
+.inquiry_form .form_contact{
     display: block;
     width: 400px;
     padding: 70px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     clear: both;
     
 }
